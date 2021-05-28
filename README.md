@@ -1,29 +1,36 @@
-﻿# [STM32L151](https://github.com/SoCXin/STM32L151)
+﻿# [STM32L476](https://github.com/SoCXin/STM32L476)
 
-[![sites](http://182.61.61.133/link/resources/SoC.png)](http://SoC.Xin) 
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/SoCXin/Vendor)：[ST](https://github.com/SoCXin/ST)
-#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M3](https://github.com/SoCXin/CM3) 
-#### [Level](https://github.com/SoCXin/Level)：32MHz 
+* [ST](https://www.st.com/zh/): [Cortex-M4](https://github.com/SoCXin/Cortex)
+* [L4R4](https://github.com/SoCXin/Level): 80 MHz x 1.25 DMIPS/MHz (409CoreMark)
 
-## [STM32L151描述](https://github.com/SoCXin/STM32L151/wiki) 
+## [简介](https://github.com/SoCXin/STM32L476/wiki)
 
-[STM32L151](https://github.com/SoCXin/STM32L151) 器件利用Cortex-M3内核和频率介于32 kHz至32 MHz的CPU时钟扩展了超低功耗理念，并且不会降低性能。除了动态运行和低功耗运行模式以外，还有另外2种超低功耗模式为您带来了极低的功耗，同时还能保持RTC、后备寄存器内容与低压检测器的工作。
+[STM32L476](https://github.com/SoCXin/STM32L476)在比较超低功耗微控制器效率的标准化EEMBC™ ULPBench® 测试中获得447 ULPMark-CP 和167 ULPMark-PP。此外，STM32L4系列打破了当前超低功耗领域的性能极限。基于带有FPU的Arm® Cortex®-M4内核以及意法半导体ART Accelerator™，该系列在80 MHz的CPU频率下性能达到100 DMIPS。
 
-STM32L151/152器件面向医疗、工业和消费类应用，其主要特性为片上集成的快速12位1 MSPS ADC、USB 2.0 FS和电容式触摸感应模块。您可以利用SDIO和FSMC接口扩展存储容量。
+[![sites](docs/STM32L476.png)](https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-ultra-low-power-mcus/stm32l4-series/stm32l4x6.html?querycriteria=productId=LN1840=STM32L476|STM32L486#products)
 
-为了减少应用成本和设计时间，STM32L151/152还提供了具有8x40段的集成式LCD驱动器。
+### 关键特性
 
-STM32L151/152系列具有32~512KB Flash，采用48~144引脚封装。
+* 15个通信接口
+* 2 x USB OTG
+
+#### 封装规格
+
+* LQFP100 (14×14mm)
+* LQFP144 (20×20mm)
+* LQFP176 (10×10mm)
+
 
 ### [资源收录](https://github.com/SoCXin)
 
-* [文档](docs/)
-* [资源](src/)
+* [参考资源](src/)
+* [参考文档](docs/)
+* [参考工程](project/)
 
 ### [选型建议](https://github.com/SoCXin)
 
-[STM32L151](https://github.com/SoCXin/STM32L151) 适用于电池供电的高附加值硬件产品，特别是需要用到USB和LCD
+[STM32L476](https://github.com/SoCXin/STM32L476)
 
-###  [SoC芯平台](http://SoC.Xin) 
-
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
